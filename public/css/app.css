@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: white;
+}
+.bar-1 a{
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+.bar-1 a:hover{
+    border-bottom: 3px solid #333333cd;
+    border-radius: 1px;
+}
+.conectez-nous{
+    margin-right: 10%;
+}
+.contactez-nous a{
+    text-decoration: none;
+    padding: 25px 50px;
+    font-family: Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+.contactez-nous a:hover{
+    background-color: #82368c;
+    color: white;
+    border-bottom: 3px solid #181717cd;
+    border-radius: 1px;
+    text-decoration: underline 3px solid white;
+}
